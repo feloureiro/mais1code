@@ -1,0 +1,50 @@
+/* COLOCANDO UMA FONTE PADRÃO */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+header, footer {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+h1 {
+    font-size: 30px;
+}
+a {
+    color: turquoise;
+}
+a:hover {
+    color: tomato;
+}
+
+figure {
+    margin: 10px;
+}
+li {
+    list-style-position: inside;
+}
+figcaption {
+    font-style: italic;
+}
+img {
+    max-width: 70%;
+}
+main {
+    padding: 20px;
+}
+section {
+    max-width: 40%;
+    border: 2px solid tomato;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+article {
+    margin-left: 10px;
+    display: flex;
+}
